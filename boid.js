@@ -4,8 +4,8 @@ const ALIGNMENT_RADIUS = 60;
 const COHESION_RADIUS = 20;
 
 const SEPARATION_FORCE = 0.5;
-const ALIGNMENT_FORCE = 0.4;
-const COHESION_FORCE = 1;
+const ALIGNMENT_FORCE = 0.5;
+const COHESION_FORCE = 0.5;
 
 class Boid {
   constructor(x, y, direction, initialSpeed) {

@@ -68,7 +68,7 @@ function setup() {
         width / 4 + random(width - width / 2),
         height / 4 + random(height - height / 2),
         random(PI * 2),
-        2
+        1
       )
     );
   }
